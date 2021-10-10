@@ -1,0 +1,158 @@
+/***** BASE STYLES *****/
+
+body {
+  color: #2b2b2b;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+  margin: 0 auto;
+  overflow: auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***** HEADER *****/
+
+header {
+  background: url("../img/jaz-laptop.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+}
+
+header h1 {
+  color: #000033;
+  font-size: 45px;
+  font-weight: lighter;
+  padding: 35px 0 65px 0px;
+  text-transform: uppercase;
+}
+
+nav {
+  float: right;
+  padding-top: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  color: aliceblue;
+  font-size: 18px;
+  padding-left: 80px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+/***** ABOUT *****/
+
+#about {
+  background-color: aliceblue;
+}
+
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  color: lightslategray;
+  font-size: 36px;
+  font-weight: lighter;
+  padding-left: 50px;
+  text-transform: lowercase;
+}
+
+#about p {
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+#about p strong {
+  color: #ffb899;
+}
+
+#about p span strong {
+  color: black;
+}
+
+
+/***** CONTACT *****/
+
+#contact {
+  background-color: #000033;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact img#contact-img {
+  border: 12px solid #ffffff;
+  margin-left: 25px;
+}
+
+#contact h2, #contact #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#contact h2 {
+  color: lightsteelblue;
+  font-size: 32px;
+  text-transform: lowercase;
+  line-height: 44px;
+}
+
+#contact h3 {
+  color: lightsteelblue;
+  text-transform: lowercase;
+}
+
+#contact #envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact #socialmedia-header {
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 44px;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  color: #ffb899;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 48px;
+}
